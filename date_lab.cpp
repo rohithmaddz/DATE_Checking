@@ -71,5 +71,8 @@ int main() {
   dates d;
   d.input();
   d.Month();
+  
+  cout << "Hello world " << endl;
+  
   return 0;
 }
