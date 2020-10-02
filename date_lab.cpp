@@ -13,7 +13,7 @@ class dates {
 };
 
 void dates::input() {
-  cout << "\nEnter the Date DD MM YYYY :";
+  cout << "\nEnter the Date Month Year:";
   cin >> day >> month >> year;
 }
 //Month
@@ -72,7 +72,7 @@ int main() {
   d.input();
   d.Month();
   
-  cout << "Hello world " << endl;
+  cout << "Hello DP " << endl;
   
   return 0;
 }
